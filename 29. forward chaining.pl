@@ -31,4 +31,4 @@ query5 :- ancestor(john, X), write(X), nl, fail.
 query6 :- ancestor(X, tom), write(X), nl, fail.
 
 % Query 7: Is Ann a parent of Pat?
-query7 :- parent(ann, pat).
+query7 :- parent(ann,Â pat).
